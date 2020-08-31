@@ -15,6 +15,7 @@ a {
 }
 
 header, section, footer {
+  background-color: floralwhite;
   padding: 20px 0;
   border-bottom: 1px solid blueviolet;
 }
@@ -24,6 +25,7 @@ img {
 }
 
 .container {
+
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -61,6 +63,7 @@ Acomodar el header
 2- los elementos tienen que estar centrados verticalmente
 */
 header .flex-container {
+  background-color: aquamarine;
   justify-content: space-between;
   align-items: center;
 }
@@ -90,8 +93,17 @@ Acomodar la sección 2
 #section-2 .flex-hijos {
   display: flex;
   justify-content: center;
-  /* text-align: center; */
+  text-align: center;
   align-items: center;
+}
+#section-3{
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+}
+.image-container{
+  display: flex;
 }
 
 /*
